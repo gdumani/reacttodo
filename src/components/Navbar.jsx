@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
@@ -13,7 +13,9 @@ const Navbar = () => {
         <li>About</li>
         <li>
           <button onClick={() => setDropdown((prev) => !prev)}>
-            Services <span>&#8595;</span>
+            Services
+            {' '}
+            <span>&#8595;</span>
           </button>
           {dropdown && (
             <ul>
