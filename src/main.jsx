@@ -1,16 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-import TodoApp from "@/components/TodoApp";
-import Navbar from "@/components/Navbar";
+import TodoApp from '@/components/TodoApp';
 
-const domContainer = document.getElementById("root");
+const domContainer = document.getElementById('root');
 const root = ReactDOM.createRoot(domContainer);
 // ...
 root.render(
   <React.StrictMode>
     <TodoApp />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
-
-

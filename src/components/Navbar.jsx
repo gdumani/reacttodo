@@ -12,7 +12,7 @@ const Navbar = () => {
         <li>Home</li>
         <li>About</li>
         <li>
-          <button onClick={() => setDropdown((prev) => !prev)}>
+          <button type="button" onClick={() => setDropdown((prev) => !prev)}>
             Services
             {' '}
             <span>&#8595;</span>
